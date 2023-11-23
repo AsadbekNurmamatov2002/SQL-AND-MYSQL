@@ -1,9 +1,9 @@
 ![photo_2023-11-23_18-30-21](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/4897b6d8-8b6a-45d4-8aed-dd54d232f5ae)
 
                                             __ SQL-CREATE DATABASE va CREATE TABLE__
- __CREATE DATABASE__ --Ushbu CREATE DATABASEbayonot yangi SQL ma'lumotlar bazasini yaratish uchun ishlatiladi.
- __CREATE TABLE__--bayonot ma'lumotlar bazasida yangi jadval yaratish uchun ishlatiladi.
->CREATE DATABASE databasename;
+    __CREATE DATABASE__ --Ushbu CREATE DATABASEbayonot yangi SQL ma'lumotlar bazasini yaratish uchun ishlatiladi.
+    __CREATE TABLE__--bayonot ma'lumotlar bazasida yangi jadval yaratish uchun ishlatiladi.
+>        CREATE DATABASE databasename;
 
 >        CREATE TABLE table_name (
 >        column1 datatype, 
@@ -15,14 +15,14 @@
 column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 
 --Misol--
->        CREATE DATABASE Foydatabases;
->        CREATE TABLE Foydalanovchi (
-         FoydalanovchiID int,
-         Familya varchar(255),
-         Ism varchar(255),
-         Address varchar(255),
-         Shahar varchar(255)
-        );
+>         CREATE DATABASE Foydatabases;
+>         CREATE TABLE Foydalanovchi (
+>         FoydalanovchiID int,
+ >        Familya varchar(255),
+>         Ism varchar(255),
+ >        Address varchar(255),
+ >        Shahar varchar(255)
+ >       );
 
 
                                                              __ SQL - DATA TYPE__

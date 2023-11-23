@@ -5,24 +5,24 @@
  __CREATE TABLE__--bayonot ma'lumotlar bazasida yangi jadval yaratish uchun ishlatiladi.
 >CREATE DATABASE databasename;
 
-> CREATE TABLE table_name (
->   column1 datatype, 
->    column2 datatype,
->    column3 datatype,
->   ....
->);
+>        CREATE TABLE table_name (
+>        column1 datatype, 
+>        column2 datatype,
+>        column3 datatype,
+>       ....
+>       );
 
 column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 
 --Misol--
->CREATE DATABASE Foydatabases;
->CREATE TABLE Foydalanovchi (
-    FoydalanovchiID int,
-    Familya varchar(255),
-    Ism varchar(255),
-    Address varchar(255),
-    Shahar varchar(255)
-);
+>        CREATE DATABASE Foydatabases;
+>        CREATE TABLE Foydalanovchi (
+         FoydalanovchiID int,
+         Familya varchar(255),
+         Ism varchar(255),
+         Address varchar(255),
+         Shahar varchar(255)
+        );
 
 
                                                              __ SQL - DATA TYPE__
@@ -31,11 +31,11 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
                                                              SQL-intager data type 
                                                       SQL- butun sonli ma'lumotlar turi 
                                                                                
->SQL butun sonli ma'lumotlar turi  ||  Baytlar soni || Qiymatlar diapazoni
+>        SQL butun sonli ma'lumotlar turi  ||  Baytlar soni || Qiymatlar diapazoni
 
->SMALLINT  ______________________________ 2 ____________ -32767 dan 32767 gacha
->INTEGER, INT, SERIAL____________________4 ___________ -2,147,483,647 dan 2,147,483,647 gacha
->INT8, BIGINT, SERIAL8, BIGSERIAL_______ 8____________  -9,223,372,036,854,775,807 dan 9,223,372,036,854,775,807 gacha
+>        SMALLINT  ______________________________ 2 ____________ -32767 dan 32767 gacha
+>        INTEGER, INT, SERIAL____________________4 ___________ -2,147,483,647 dan 2,147,483,647 gacha
+>        INT8, BIGINT, SERIAL8, BIGSERIAL_______ 8____________  -9,223,372,036,854,775,807 dan 9,223,372,036,854,775,807 gacha
 
                                                 CREATE TABLE-misollar
                                                 

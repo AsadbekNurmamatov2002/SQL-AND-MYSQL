@@ -47,3 +47,7 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 > adres varchar(100),
 > phone VARCHAR(15) NOT NULL UNIQUE
 > );
+>
+> ______________________________________________________
+|  id   |   ismi  | familya  | yoshi  | adres  |  phone |
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -48,6 +48,6 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 >                   phone VARCHAR(15) NOT NULL UNIQUE
 >                     );
 >
-> ______________________________________________________
-|  id   |   ismi  | familya  | yoshi  | adres  |  phone |
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+>                     ______________________________________________________
+                     |  id   |   ismi  | familya  | yoshi  | adres  |  phone |
+                      """"""""""""""""""""""""""""""""""""""""""""""""""""""""

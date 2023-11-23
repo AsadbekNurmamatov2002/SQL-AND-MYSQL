@@ -36,3 +36,14 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 >SMALLINT  ______________________________ 2 ____________ -32767 dan 32767 gacha
 >INTEGER, INT, SERIAL____________________4 ___________ -2,147,483,647 dan 2,147,483,647 gacha
 >INT8, BIGINT, SERIAL8, BIGSERIAL_______ 8____________  -9,223,372,036,854,775,807 dan 9,223,372,036,854,775,807 gacha
+
+                                                CREATE TABLE-misollar
+                                                
+> CREATE TABLE talaba(
+> id int NOT NULL AUTO_INCRIMINT, ("id AUTOINCREMENT PRIMARY KEY"-__MS Access  uchun__)
+> ismi VARCHAR(200),
+> familya VARCHAR(250),
+> yoshi INT(3),
+> adres varchar(100),
+> phone VARCHAR(15) NOT NULL UNIQUE
+> );

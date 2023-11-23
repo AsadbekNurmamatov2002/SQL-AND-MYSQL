@@ -1,15 +1,16 @@
 ![photo_2023-11-23_18-30-21](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/4897b6d8-8b6a-45d4-8aed-dd54d232f5ae)
 
-                                             SQL-CREATE DATABASE va CREATE TABLE
- CREATE DATABASE --Ushbu CREATE DATABASEbayonot yangi SQL ma'lumotlar bazasini yaratish uchun ishlatiladi.
- CREATE TABLE--bayonot ma'lumotlar bazasida yangi jadval yaratish uchun ishlatiladi.
+                                            __ SQL-CREATE DATABASE va CREATE TABLE__
+ __CREATE DATABASE__ --Ushbu CREATE DATABASEbayonot yangi SQL ma'lumotlar bazasini yaratish uchun ishlatiladi.
+ __CREATE TABLE__--bayonot ma'lumotlar bazasida yangi jadval yaratish uchun ishlatiladi.
 >CREATE DATABASE databasename;
+
 > CREATE TABLE table_name (
-    column1 datatype, 
-    column2 datatype,
-    column3 datatype,
-   ....
-);
+>   column1 datatype, 
+>    column2 datatype,
+>    column3 datatype,
+>   ....
+>);
 
 column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 
@@ -24,7 +25,7 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 );
 
 
-                                                              SQL - DATA TYPE
+                                                             __ SQL - DATA TYPE__
 ![SQL-DATATYPE](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d6c42457-5e14-40df-b15e-90dde8f497ef)
 
                                                              SQL-intager data type 

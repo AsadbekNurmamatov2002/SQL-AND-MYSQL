@@ -39,14 +39,14 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 
                                                 CREATE TABLE-misollar
                                                 
-> CREATE TABLE talaba(
-> id int NOT NULL AUTO_INCRIMINT, ("id AUTOINCREMENT PRIMARY KEY"-__MS Access  uchun__)
-> ismi VARCHAR(200),
-> familya VARCHAR(250),
-> yoshi INT(3),
-> adres varchar(100),
-> phone VARCHAR(15) NOT NULL UNIQUE
-> );
+>                  CREATE TABLE talaba(
+>                   id int NOT NULL AUTO_INCRIMINT, ("id AUTOINCREMENT PRIMARY KEY"-__MS Access  uchun__)
+>                   ismi VARCHAR(200),
+>                   familya VARCHAR(250),
+>                    yoshi INT(3),
+>                   adres varchar(100),
+>                   phone VARCHAR(15) NOT NULL UNIQUE
+>                     );
 >
 > ______________________________________________________
 |  id   |   ismi  | familya  | yoshi  | adres  |  phone |

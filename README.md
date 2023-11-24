@@ -59,12 +59,12 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 > ![sql-joins](https://user-images.githubusercontent.com/144318530/285369025-e3f3905b-8954-439c-a4b1-e6b027ed3a47.png)
 > 
 > >                                     misollar:
->                           CREATE TABLE  sqljoin1(
->                           id int NOT NULL  AUTO_INCRIMENT,
->                           firstname VARCHAR(200),
->                           listname VARCHAR(200),
->                           phone INT(15),
->                           );
+>                             CREATE TABLE  sqljoin1(
+>                             id int NOT NULL  AUTO_INCRIMENT,
+>                             firstname VARCHAR(200),
+>                             listname VARCHAR(200),
+>                             phone INT(15),
+>                            );
 > 
 > ```
 >                             CREATE TABLE  sqljoin2(

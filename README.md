@@ -51,3 +51,44 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 >                      _______________________________________________________
  >                    |  id   |   ismi  | familya  | yoshi  | adres  |  phone |
 >                      """"""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+> ```
+>                                                                    ### **SQL-JOIN**
+> ```
+> 
+> ![sql-joins](https://user-images.githubusercontent.com/144318530/285369025-e3f3905b-8954-439c-a4b1-e6b027ed3a47.png)
+> 
+> > misollar:
+> > CREATE TABLE  sqljoin1(
+> > id int NOT NULL  AUTO_INCRIMENT,
+> > firstname VARCHAR(200),
+> > listname VARCHAR(200),
+> > phone INT(15),
+> > );
+> 
+> ```
+> CREATE TABLE  sqljoin2(
+> id int NOT NULL  AUTO_INCRIMENT,
+> adress VARCHAR(200),
+> cety VARCHAR(200),
+> phone INT(15)
+> ```
+> 
+> );
+> 
+> > ```
+> >           ***SQL - INNER JOIN***
+> > ```
+> > 
+> > 
+> >     
+> >       
+> >     
+> > 
+> >       
+> >     
+> > 
+> >     
+> >   
+> > SELECT*TABLE  sqlinner1 as A INNER JOIN  sqlinner1 as B ON A.id=B.id;
+

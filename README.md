@@ -36,6 +36,23 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 >        SMALLINT  ______________________________ 2 ____________ -32767 dan 32767 gacha
 >        INTEGER, INT, SERIAL____________________4 ___________ -2,147,483,647 dan 2,147,483,647 gacha
 >        INT8, BIGINT, SERIAL8, BIGSERIAL_______ 8____________  -9,223,372,036,854,775,807 dan 9,223,372,036,854,775,807 gacha
+>
+>                                         SQL- STRING datatype
+>            Data type	          Ish bajarishi
+             CHAR(size)	         |SATILGAN uzunlikdagi satr (harflar, raqamlar va maxsus belgilarni o'z ichiga olishi mumkin). Size parametri ustun uzunligini belgilar bilan belgilaydi - 0 dan 255 gacha bo'lishi mumkin. Standart 1
+             VARCHAR(size)       |VARIABLE uzunlikdagi satr (harflar, raqamlar va maxsus belgilarni o'z ichiga olishi mumkin). Size parametri belgilarda maksimal satr uzunligini belgilaydi - 0 dan 65535 gacha bo'lishi mumkin
+             BINARY(size)        |CHAR() ga teng, lekin ikkilik bayt satrlarini saqlaydi. Size parametri baytlarda ustun uzunligini belgilaydi. Standart 1
+             VARBINARY(size)	   |VARCHAR() ga teng, lekin ikkilik bayt satrlarini saqlaydi. Size parametri baytlardagi maksimal ustun uzunligini belgilaydi.
+             TINYBLOB	           |BLOBlar uchun (ikkilik katta ob'ektlar). Maksimal uzunlik: 255 bayt
+             TINYTEXT	           |Maksimal uzunligi 255 belgidan iborat bo'lgan qatorni ushlab turadi
+             TEXT(size)	         |Maksimal uzunligi 65 535 bayt bo'lgan satrni ushlab turadi
+             BLOB(size)	         |BLOBlar uchun (ikkilik katta ob'ektlar). 65 535 baytgacha ma'lumotga ega
+             MEDIUMTEXT          |Maksimal uzunligi 16 777 215 belgidan iborat bo'lgan satrni ushlab turadi
+             MEDIUMBLOB          |BLOBlar uchun (ikkilik katta ob'ektlar). 16 777 215 baytgacha ma'lumotni saqlaydi
+             LONGTEXT	           |Maksimal uzunligi 4,294,967,295 belgidan iborat bo'lgan satrni ushlab turadi
+             LONGBLOB	           |BLOBlar uchun (ikkilik katta ob'ektlar). 4 294 967 295 baytgacha maʼlumotga ega
+             ENUM(val1, val2, ...) |Mumkin bo'lgan qiymatlar ro'yxatidan tanlangan, faqat bitta qiymatga ega bo'lishi mumkin bo'lgan satr ob'ekti. ENUM ro'yxatida 65535 tagacha qiymatlarni sanab o'tishingiz mumkin. Agar ro'yxatda bo'lmagan qiymat kiritilsa, bo'sh qiymat kiritiladi. Qiymatlar siz kiritgan tartibda tartiblanadi
+             SET(val1, val2, ...)|Mumkin boʻlgan qiymatlar roʻyxatidan tanlangan 0 yoki undan ortiq qiymatga ega boʻlishi mumkin boʻlgan satr obyekti. Siz SET ro'yxatida 64 tagacha qiymatni sanab o'tishingiz mumkin
 
                                                 CREATE TABLE-misollar
                                                 

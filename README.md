@@ -54,6 +54,8 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
              ENUM(val1, val2, ...) |Mumkin bo'lgan qiymatlar ro'yxatidan tanlangan, faqat bitta qiymatga ega bo'lishi mumkin bo'lgan satr ob'ekti. ENUM ro'yxatida 65535 tagacha qiymatlarni sanab o'tishingiz mumkin. Agar ro'yxatda bo'lmagan qiymat kiritilsa, bo'sh qiymat kiritiladi. Qiymatlar siz kiritgan tartibda tartiblanadi
              SET(val1, val2, ...)|Mumkin boʻlgan qiymatlar roʻyxatidan tanlangan 0 yoki undan ortiq qiymatga ega boʻlishi mumkin boʻlgan satr obyekti. Siz SET ro'yxatida 64 tagacha qiymatni sanab o'tishingiz mumkin
 
+
+
                                                 CREATE TABLE-misollar
                                                 
 >                  CREATE TABLE talaba(

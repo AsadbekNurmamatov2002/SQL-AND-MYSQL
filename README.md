@@ -151,10 +151,94 @@ tugmani bosim __cmd__ kiriting
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/71dafe25-97ff-49ba-8dea-aee6e7494acc)
 ma'lumot Kiritish - __INSERT INTO__
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/b61c60ec-c816-4591-b2ce-64740e5e0714)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/fc97a625-a87c-40a5-ab83-135869f77ec4)
+
 ma'lumot chiqarish - __SELECT * FROM table_name;__
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/ac929a0b-ea5e-40df-b2cf-b52b31655dec)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/defd02a6-fdd5-4f2d-974b-e227dee830aa)
 
 
+# Mysql- WHERE 
+>
+__SELECT column1, column2, ...
+FROM table_name
+WHERE condition;__
+>
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/772affc2-19e7-48c7-bcb7-b0c6d7b35c67)
+__Chizilgan chiziq boylab Jajvaldan ma'lumot 
+>      SELECT*FROM table_name WHERE ism='Suhrob' ;
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d0bf246a-2f2c-491c-9569-929e92beabea)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/740af3c4-c0e5-4aec-8e52-42461bf31f74)
+__Chizilgan chiziq boylab Jajvaldan ma'lumot olish__
+>      SELECT id , ism, familya, telefon FROM table_name WHERE familya='Nurmamatov' ;
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/3a282bf0-cd28-4d2f-821b-c5092f026ce9)
 
+#Mysql - WHER ->AND , OR va NOT
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/23e36af2-f260-47a0-a848-fc909206b043)
+__SELECT ustun1, ustun2, ...
+FROM table_name
+WHERE  holat1 OR holat2 OR holat3 ...;__
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/85197ee7-ad64-4ea0-9d21-7456007f2fb7)
 
+__SELECT ustun1, ustun2, ...
+FROM table_name
+WHERE NOT holat;__
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/fad18b66-ef94-407d-8949-9d63207129b2)
+
+# Mysql-ORDER BY, DESC, ASC
+__familya__ ustun bo'yicha tartiblash
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/e7186c68-5a34-4c46-baab-a3493f5de1ba)
+__familya__ ustun bo'yicha kamiyish Tartibida tartiblash
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/b9678486-2811-46a4-be55-d8db654c5f11)
+__familya__ ustun bo'yicha o'shish bo'yicha tartiblaydi
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/31d5d769-3f30-4dfa-853c-cae7713132e8)
+__ASC+DESC__
+ism ustun bo'yicha o'shish, familya bo'yicha kamiyish tartibida joylashtiradi
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/43717473-c0c0-4754-8756-327b16998596)
+#Mysql-LIMIT
+__SELECT ustun(s)
+FROM table_name
+WHERE holat
+LIMIT number;__
+>__LIMIT__ - CHIKLOV
+code-> __SELECT*FROM table_name WHERE shahar="Samarqand" LIMIT 2;__
+shahar ustun bo'yicha 2 ta smarqand nomli satrlarni olish
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/38d82e5d-bb53-4201-bbda-5b07793fae20)
+
+__MySQL MIN() va MAX() funksiyalari__
+-Funktsiya MIN()tanlangan ustunning eng kichik qiymatini qaytaradi.
+
+-Funktsiya MAX()tanlangan ustunning eng katta qiymatini qaytaradi.
+## MIN()-ishlatilishi
+>
+__SELECT MIN(ustun)
+FROM table_name
+WHERE holat;__
+>
+bu jadvaldan eng kichik telifon numberni topish(misol uchun)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/0a52f865-ac5d-43a2-9344-22bea1a93564)
+code-> __SELECT MIN(telefon) FROM table_name ;__ 
+etibor bering (table_name) bu biz boshlanggich darsda jadval nomini -> __table_name__ deb bergandek
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/25183d8e-d849-4df4-887b-5efb011abddc)
+__AS__ -orqli biz jadval nomini uzgartirishimiz mumkun
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/4eff5abd-0570-40c9-9b19-2ae3b12d8d5f)
+## MAX()-ishlatilishi
+__SELECT MAX(ustun)
+FROM table_name
+WHERE holat;__
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/1b469031-982d-42a1-97c5-987df18315a3)
+
+__MySQL COUNT(), AVG() va SUM() funksiyalari__
+__COUNT()__ - funksiyasi (sonini aniqlaydi) O'xshash holatlar sonini aniqlaydi
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d470e3a1-24cb-4728-9e2c-bc12ad1ebc0b)
+__AVG()__Funktsiya raqamli ustunning o'rtacha qiymatini qaytaradi. 
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d39f1c34-070c-4762-ac46-e7b36d4c519f)
+__ SUM()__Funktsiya raqamli ustunning umumiy yig'indisini qaytaradi. 
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/75ea99a3-ba06-4019-b373-a009d196cd11)
+__MySQL LIKE operatori__
+Ustun ichida belgilangan naqshni qidirish uchun operator LIKEbandda ishlatiladi 
+LIKE "a%"-> a va A bilan boshlanovshi qiymatlarni ob beradi
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/7853bcbf-af08-42c5-ae29-8bc98c1a17a6)
+LIKE "%n"-> n va N bilan tugavchi qiymatlarni oladi
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/55c74f4c-6303-4cf9-9bd4-017244935add)
 

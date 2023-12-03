@@ -149,9 +149,9 @@ tugmani bosim __cmd__ kiriting
 
 
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/71dafe25-97ff-49ba-8dea-aee6e7494acc)
-
+ma'lumot Kiritish - __INSERT INTO__
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/b61c60ec-c816-4591-b2ce-64740e5e0714)
-
+ma'lumot chiqarish - __SELECT * FROM table_name;__
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/ac929a0b-ea5e-40df-b2cf-b52b31655dec)
 
 

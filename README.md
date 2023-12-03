@@ -111,3 +111,50 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
 > >   
 > > SELECT*TABLE  sqlinner1 as A INNER JOIN  sqlinner1 as B ON A.id=B.id;
 
+# MySql darslar
+## 1-dars
+### Mysql-install
+Bu site ga kiring __https://dev.mysql.com/downloads/installer/__
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/aae2af50-2e3a-4819-8196-a9d12d1d20b3)
+bu-pastagi tugmani bosing
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/747475d6-dba7-4a73-8cba-4129867971ca)
+va kiyingi sahifaga o'ting
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/fc917729-575f-4f2d-9a67-4486f7ddfa88)
+kiyin bu tugmani bosing 
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/f30817ef-9e75-45c0-a1c2-e7ef3f79631e)
+
+__MySql-DATA-TYPE__
+>CHAR(size)-Size parametri ustun uzunligini belgilar bilan belgilaydi - 0 dan 255 gacha bo'lishi mumkin. Standart 1
+>VARCHAR(size)-harflar, raqamlar va maxsus belgilarni o'z ichiga olishi mumkin. Hajmi parametri maksimal ustun  - 0 dan 65535 gacha bo'lishi mumkin
+>BINARY(size)-CHAR() ga teng, lekin ikkilik bayt satrlarini saqlaydi. Size parametri baytlarda ustun yordamni olish. Standart 1
+
+1-qadam  
+>    windows+R
+tugmani bosim __cmd__ kiriting
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/77e28755-c71d-4cd6-afdd-c82d2f837da8)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/7ff85a4f-9ebf-4837-9536-d24c42a527e6)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/24f7c1dd-ac71-4529-bd87-1513920425b5)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/ad3ed256-2fd4-4d3b-8030-cb88bc0f8b6a)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/46f7c614-227a-43e2-9833-3a462198f86e)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/167867c3-78f3-4f65-96fe-9092a868c38a)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/e49c6a7f-8987-4f55-b6b6-55adc5b5300d)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/7bd58050-9ec6-4e34-8c13-ff08c8db41d2)
+
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/71dafe25-97ff-49ba-8dea-aee6e7494acc)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/b61c60ec-c816-4591-b2ce-64740e5e0714)
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/ac929a0b-ea5e-40df-b2cf-b52b31655dec)
+
+
+
+
+

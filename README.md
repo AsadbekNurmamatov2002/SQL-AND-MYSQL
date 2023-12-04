@@ -286,13 +286,30 @@ Ikki yoki undan ortiq jadvallar qatorlarini ular orasidagi tegishli ustun asosid
 __MySQL INNER JOIN__
 
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/b07d0319-5faa-4543-b0b6-2d2f021d04fc)
-__SELECT column_name(s)
+>
+__SELECT ustun_name(s)
 FROM table1
 INNER JOIN table2
-ON table1.column_name = table2.column_name;__
+ON table1.ustun_name = table2.ustun__name;__
+>
 
-
-
-
-
-
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/63b254de-2b87-4d55-91f2-9de5e5137a04)
+>
+__SELECT ustun_name(s)
+FROM table1
+LEFT JOIN table2
+ON table1.ustun_name = table2.ustun_name;__
+>
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/1d1e68e3-14dd-4152-ae04-d85e40651832)
+>
+__SELECT uston_name(s)
+FROM table1
+RIGHT JOIN table2
+ON table1.ustun_name = table2.ustun_name;__
+>
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/2636027a-0223-43ea-979b-34320662a053)
+>
+__SELECT ustun_name(s)
+FROM table1
+CROSS JOIN table2;__
+>

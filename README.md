@@ -284,8 +284,33 @@ Ikki yoki undan ortiq jadvallar qatorlarini ular orasidagi tegishli ustun asosid
 
 #  YECHIMLAR
 __MySQL INNER JOIN__
+# Keling Yangi database va table yaratamiz
+__1-qadan__ 
+cmd ga kirib: pastagi kodni yozing va parolinggizni kiriting.
+>       Mysql -u root -p
+>       -u -> user
+>       -p -> password
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/b73739ec-e9bf-4fb7-981d-16c41c6c2e61)
+__Ma'lumotlar bazasini ko'rish__ SHOW DATABASES;
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/7055c1bc-b41a-4ece-8791-3cd1caad457a)
+__yangi Ma'lumotlar bazasini yaratish__ CREATE DATABASE _database_name__;
+>        Yangi my_shop nome ma'lumotlar bazasi yarating.
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/2e1bc48e-1492-4e7e-93dd-cbe9eec36e5c)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/84a41a05-d3d2-4a7d-8f6b-e78d6c4a7d83)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/4ae11812-3455-43a1-bed5-ec92432c90ae)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/72074d4e-5424-4bca-857d-e837d2f3f6e4)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/e1883259-309a-43cb-b917-e39e02296428)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/8d6d0ce2-e0c9-4ded-9d3a-f33024d6f3b4)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/84c22008-e9a3-4ab8-995a-197884c921df)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/52fad41c-0599-46c3-b51c-786b66ef0312)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/9a1bb2ec-f080-49c9-b863-93bc6b14b24c)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/574fb394-a3c1-4f2a-8a31-29ee7c12adea)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/27546013-99b1-4873-9ce6-7461bae2693a)
+>            2ta jadval yarrattika
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/e9d0e2fc-dab9-4ac3-bf15-67c4aea72e06)
 
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/b07d0319-5faa-4543-b0b6-2d2f021d04fc)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/686dada5-106f-4bd9-8fbe-d1e06a22ee74)
 >
 __SELECT ustun_name(s)
 FROM table1
@@ -294,6 +319,8 @@ ON table1.ustun_name = table2.ustun__name;__
 >
 
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/63b254de-2b87-4d55-91f2-9de5e5137a04)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/f53d0406-37dd-4c0b-8af0-ac9ad357d97c)
+
 >
 __SELECT ustun_name(s)
 FROM table1
@@ -301,6 +328,8 @@ LEFT JOIN table2
 ON table1.ustun_name = table2.ustun_name;__
 >
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/1d1e68e3-14dd-4152-ae04-d85e40651832)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/069f820a-8f46-4a30-917d-315fa6b71880)
+
 >
 __SELECT uston_name(s)
 FROM table1
@@ -308,6 +337,8 @@ RIGHT JOIN table2
 ON table1.ustun_name = table2.ustun_name;__
 >
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/2636027a-0223-43ea-979b-34320662a053)
+
+
 >
 __SELECT ustun_name(s)
 FROM table1

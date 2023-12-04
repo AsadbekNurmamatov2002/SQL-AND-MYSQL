@@ -262,23 +262,34 @@ WHERE column_name BETWEEN value1 AND value2;__
 
 # MySQL ulanishlari
 Ikki yoki undan ortiq jadvallar qatorlarini ular orasidagi tegishli ustun asosida birlashtirish uchun __JOIN__ ishlatiladi .
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/978162e5-be87-4cad-b8ef-b17cd367d9a8)
+
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/38a06039-e69a-4332-8d59-598cea56e46e)
-iNNER JOIN
+>           iNNER JOIN
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/9fc3a833-ce60-4a50-9ed1-ae2a7321bafe)
 
-LEFT JOIN
+>           LEFT JOIN
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/fc87e3a1-6618-4ae1-944d-b053a90c98e1)
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d9667177-7b47-4730-ab85-a4bd875e4777)
 
-RIGT JOIN
+>           RIGT JOIN
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/de3b0def-6587-4fa2-91cc-e2f538625bb8)
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d0c77797-c434-44e3-8fbf-74362ab099c7)
-UNION JOIN
+>           UNION JOIN
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/af29728c-c504-4ec8-b84e-a0577a8a7d3b)
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/8d2f54e5-f1d6-4984-ad97-5251ff544aa0)
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/6a305ae7-2223-483b-91d5-e1880ef38821)
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/83787eaa-dc2c-4644-8654-94249bb3e928)
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/f471e593-30c9-456b-8989-e429121edb83)
+
+#  YECHIMLAR
+__MySQL INNER JOIN__
+
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/b07d0319-5faa-4543-b0b6-2d2f021d04fc)
+__SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;__
 
 
 

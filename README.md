@@ -25,6 +25,7 @@ column-Ustun parametrlari jadval ustunlarining nomlarini belgilaydi.
  >       );
 
 
+
                                                              __ SQL - DATA TYPE__
 ![SQL-DATATYPE](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d6c42457-5e14-40df-b15e-90dde8f497ef)
 
@@ -241,4 +242,46 @@ LIKE "a%"-> a va A bilan boshlanovshi qiymatlarni ob beradi
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/7853bcbf-af08-42c5-ae29-8bc98c1a17a6)
 LIKE "%n"-> n va N bilan tugavchi qiymatlarni oladi
 ![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/55c74f4c-6303-4cf9-9bd4-017244935add)
+
+__MySQL IN operatori__
+-Operator INbandda bir nechta qiymatlarni belgilash imkonini beradi.
+__SELECT ustun_name(s)
+FROM table_name
+WHERE ustun_name IN (value1, value2, ...);__
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/c00f4ff8-d8cb-4e59-8886-4a658ac5d72b)
+
+__MySQL BETWEEN operatori__
+-Operator BETWEENma'lum diapazondagi qiymatlarni tanlaydi. Qiymatlar raqamlar, matn yoki sana bo'lishi mumkin.
+-Operator BETWEEN o'z ichiga oladi: boshlang'ich va tugatish qiymatlari kiritilgan.
+__SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;__
+-__BETWEEN va NOT BETWEEN__
+-__ORASIDA va __ORASIDA EMAS__- qo'llanilishi
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/981ad3c9-1f5c-4618-ad7b-e8693a7a7f94)
+
+# MySQL ulanishlari
+Ikki yoki undan ortiq jadvallar qatorlarini ular orasidagi tegishli ustun asosida birlashtirish uchun __JOIN__ ishlatiladi .
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/38a06039-e69a-4332-8d59-598cea56e46e)
+iNNER JOIN
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/9fc3a833-ce60-4a50-9ed1-ae2a7321bafe)
+
+LEFT JOIN
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/fc87e3a1-6618-4ae1-944d-b053a90c98e1)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d9667177-7b47-4730-ab85-a4bd875e4777)
+
+RIGT JOIN
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/de3b0def-6587-4fa2-91cc-e2f538625bb8)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/d0c77797-c434-44e3-8fbf-74362ab099c7)
+UNION JOIN
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/af29728c-c504-4ec8-b84e-a0577a8a7d3b)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/8d2f54e5-f1d6-4984-ad97-5251ff544aa0)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/6a305ae7-2223-483b-91d5-e1880ef38821)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/83787eaa-dc2c-4644-8654-94249bb3e928)
+![image](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/f471e593-30c9-456b-8989-e429121edb83)
+
+
+
+
+
 

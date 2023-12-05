@@ -1,4 +1,4 @@
-#SQL
+# SQL-darslar
 ![photo_2023-11-23_18-30-21](https://github.com/AsadbekNurmamatov2002/SQL-AND-MYSQL/assets/144318530/4897b6d8-8b6a-45d4-8aed-dd54d232f5ae)
 
                                             __ SQL-CREATE DATABASE va CREATE TABLE__

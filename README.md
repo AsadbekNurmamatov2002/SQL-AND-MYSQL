@@ -345,3 +345,16 @@ __SELECT ustun_name(s)
 FROM table1
 CROSS JOIN table2;__
 >
+
+# MySql -Asosiy funksiyalar
+* DATEDIFF() funksiyasi belgilangan ikki sana qiymati orasidagi kunlar sonini qaytarish uchun ishlatiladi.
+>         Parametr: Bu funksiya quyida keltirilgan ikkita parametrni qabul qiladi:
+>            sana1: Birinchi belgilangan sana
+>            sana2: Ikkinchi belgilangan sana
+>            DATEDIFF(sana1, sana2)
+masalan:
+>   SELECT DATEDIFF("2023-12-07","2023-12-01")
+*  CURDATE() funksiyasi joriy sanani qaytarish uchun ishlatiladi. Sana “YYYY-AA-KK” (satr) yoki YYYYAAG (raqamli) formatiga qaytariladi. Bu funksiya CURRENT_DATE() funksiyasiga teng. 
+  Ushbu maqolada biz CURDATE() funksiyasi haqida batafsil gaplashamiz.
+masalan:
+>  SELECT CURDATE();
